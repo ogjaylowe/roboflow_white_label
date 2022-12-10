@@ -1,9 +1,5 @@
 import streamlit as st
 import requests
-from PIL import Image
-from io import StringIO
-
-from utils import infer
 
 def fetch(session, url):
     try:
